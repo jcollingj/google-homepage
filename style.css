@@ -1,9 +1,117 @@
 #home {
-	margin:auto;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+#gimage {
+	padding-top: 100px;
+	width: 269px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#sbox {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#searchbox {
+	width:400px;
+
+}
+
+
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#navmenu li {
+	display:block-inline;
+	float: right;
+	padding:10px;
+}
+
+#images {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#gplus {
+	border-radius: 50%;
+}
+#gmail {
+	padding-top: 10px;
+}
+
+.button {
+	background-color: #f2f2f2;
 	width: 100px;
+	height: 30px;
+	border-color: #d3d3d3;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 20px;
+	position: relative;
+
 }
 
-h1 {
-	color: blue;
+.button2 {
+	font-size: small;
+	height: 32px;
+	line-height: 10px;
+	}
+
+#search li {
+	display:inline-block;
 
 }
+
+#search {
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	float:left;
+	margin-left: -7px;
+	margin-right: 50px;
+	line-height: 40px;
+
+}
+
+#fdivs li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+#rfd {
+	float: right;
+}
+
+#lfd {
+	float:left;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+
